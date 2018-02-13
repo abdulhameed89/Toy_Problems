@@ -30,7 +30,7 @@
     var multiplyOfFour=function(numbers){
     	var result=[]
     	each(numbers,function(num,i){
-    		if (i%4 === 0) {
+    		if (num%4 === 0) {
     			result.push(num*4);// I did  as the question want but I didn't get the same result !!!
     		}
     	})
