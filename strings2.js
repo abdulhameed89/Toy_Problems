@@ -26,7 +26,7 @@
 	each(items,function(item,i){
 		if(item === elem){
 			result.push(items[(i+1)]);
-			break;
+			
 		}
 	})
 	return result[0];
